@@ -1,0 +1,46 @@
+body {
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 20px;
+
+  background-color: #c4c1e0;
+  color: #333;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+.card {
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+}
+input {
+  border-radius: 8px;
+}
+button {
+  color: aliceblue;
+  background-color: rgb(85, 170, 245);
+  border-radius: 5px;
+}
+img {
+  width: 38px;
+}
+.row {
+  margin: -5px;
+}
+.overview {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 60px;
+}
+.unit {
+  font-size: 20px;
+}

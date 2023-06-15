@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": "../ema-weather"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../img"
+	}
+],
+  "settings": {}
+}
