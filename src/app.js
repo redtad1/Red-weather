@@ -1,12 +1,4 @@
-function displayTemperature(response) {
-  console.log(response.data);
-  let temperatureElement = document.querySelector("#temperture");
-  let cityElement = document.querySelector("#city");
-  temperatureElement.innerHTML = math.round(response.data.main.temp);
-  cityElement.innerHTML = response.data.name;
-}
+let apikey = "3b2bf4c07afb429c58d48fd405810a82";
+let apiurl = `https://api.openweathermap.org/data/2.5/weather?q=chicago&appid=${apikey}&units=metric`;
 
-let apikey = "c43da09a1983b53850881d638a5of324";
-let apiurl = `https://api.shecodes.io/weather/v1/forecast?query=chicago&key=${apikey}&units=metric`;
-
-axios.get(apiurl).then(displayTemperature);
+console.log(apiurl);

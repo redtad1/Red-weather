@@ -28,12 +28,15 @@ button {
   background-color: rgb(85, 170, 245);
   border-radius: 5px;
 }
+.button:hover {
+  color: black;
+  background-color: #c4c1e0;
+}
+
 img {
   width: 38px;
 }
-.row {
-  margin: -5px;
-}
+
 .overview {
   margin-bottom: 20px;
   margin-top: 20px;
