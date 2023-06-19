@@ -41,9 +41,19 @@ img {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-h2 {
-  font-size: 60px;
+.speed {
+  text-transform: capitalize;
+}
+.temp {
+  font-size: 55px;
 }
 .unit {
   font-size: 20px;
+}
+ul {
+  text-align: left;
+  list-style-type: none;
+}
+li::first-letter {
+  text-transform: capitalize;
 }
