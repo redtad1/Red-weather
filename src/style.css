@@ -36,14 +36,14 @@ button {
 img {
   width: 38px;
 }
-
+.sun {
+  font-size: 100px;
+}
 .overview {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-.speed {
-  text-transform: capitalize;
-}
+
 .temp {
   font-size: 55px;
 }
