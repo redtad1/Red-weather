@@ -24,13 +24,13 @@ input {
   border-radius: 8px;
 }
 button {
-  color: aliceblue;
-  background-color: rgb(85, 170, 245);
+  color: rgb(25, 38, 49);
+  background-color: rgb(238, 184, 232);
   border-radius: 5px;
 }
 .button:hover {
-  color: black;
-  background-color: #c4c1e0;
+  color: rgb(216, 15, 15);
+  background-color: #22caa0;
 }
 
 img {
