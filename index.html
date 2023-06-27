@@ -10,28 +10,32 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  
     <link rel="stylesheet" href="src/style.css" />
-    <title>Document</title>
+    <title>weather App</title>
   </head>
   <body>
     <div class="container">
+
       <div class="card">
         <div class="overview">
-          <div col-9 class="search-form"
-          id="form">
-            <input 
-            type="text" 
-            placeholder="Type a city"
-             id="city-input"/>
-             <button id="search">Search</button>
-
-            </div>
-            <hr />
+          <div col-9 class="search-form">
+            <form class="search-form" id="form">
+            <input type="text" 
+            placeholder="Type a city" 
+            id="city-input" />
+          <button id="search">Search</button>
+           </form>
+            
+           <hr />
           
              <h1 id="city"></h1>
             <h2 class="temp" id="temperature">
-              <h3 class="unit"> °C| <a href="#" id="fahrenheit-link"> °F</a>
+              <h3 class="unit"> 
+                <a href="#" id="celsius-link"> °C</a> |
+                <a href="#" id="fahrenheit-link"> °F</a>
               </h3>
             <img src="img/sun2.webp" 
             alt="" 
@@ -101,7 +105,6 @@
         </div>
       </div>
     </div>
-    
     <script src="src/app.js"></script>
   </body>
 </html>
