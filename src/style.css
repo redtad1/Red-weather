@@ -1,17 +1,9 @@
 body {
-  max-width: 900px;
+  max-width: 900px auto;
   margin: 10px auto;
   border-radius: 10px;
   padding: 20px;
 
-  background-color: #c4c1e0;
-  color: #333;
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
-  text-align: center;
-}
-.card {
   background: radial-gradient(
     328px at 2.9% 15%,
     rgb(191, 224, 251) 0%,
@@ -20,13 +12,22 @@ body {
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
+
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.card {
+  background: linear-gradient(to right, #59f683 0%, #96ecf0 100%);
 }
 input {
   border-radius: 8px;
 }
 button {
   color: rgb(25, 38, 49);
-  background-color: rgb(238, 184, 232);
+  background-color: rgb(233, 139, 7);
   border-radius: 5px;
 }
 .button:hover {
@@ -55,6 +56,14 @@ ul {
   text-align: left;
   list-style-type: none;
 }
-li::first-letter {
+
+li:first-letter {
   text-transform: capitalize;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 25px;
 }
