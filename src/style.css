@@ -67,3 +67,7 @@ li:first-letter {
 .weather-forecast-date {
   font-size: 25px;
 }
+footer {
+  margin-top: 10px;
+  font-size: 15px;
+}
